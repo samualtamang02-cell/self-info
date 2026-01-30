@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Personal Profile | Krishna Prasad Tamang</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="theme-toggle">
+    <button id="toggleTheme">🌙</button>
+  </div>
+
+  <header>
+    <img src="profile.jpg" alt="Krishna Prasad Tamang" class="profile-pic">
+    <h1>Krishna Prasad Tamang</h1>
+    <p class="bio">
+      Motivated and enthusiastic student with a strong interest in technology and skill development.
+      Passionate about learning new tools and applying knowledge practically.
+    </p>
+  </header>
+
+  <main>
+
+    <!-- Personal Information -->
+    <section class="card">
+      <h2><i class="fas fa-user"></i> Personal Information</h2>
+
+      <p>
+        <i class="fas fa-calendar-days info-icon"></i>
+        <strong>Date of Birth:</strong> 2061-05-20 (B.S.)
+      </p>
+
+      <p>
+        <i class="fas fa-location-dot info-icon"></i>
+        <strong>Address:</strong> Myanglung-3, Tehrathum
+      </p>
+    </section>
+
+    <!-- Education & Skills -->
+    <section class="card">
+      <h2><i class="fas fa-graduation-cap"></i> Education & Skills</h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="timeline-date">Bachelor</span>
+          <p>ICT Education, Tribhuvan University</p>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-date">Skills</span>
+          <p>HTML, CSS, Basic Web Design</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="card">
+      <h2><i class="fas fa-envelope"></i> Contact</h2>
+
+      <ul class="contact-list">
+        <li>
+          <i class="fas fa-envelope contact-icon"></i>
+          <a href="mailto:samualtamang02@gmail.com">
+            samualtamang02@gmail.com
+          </a>
+        </li>
+
+        <li>
+          <i class="fab fa-facebook contact-icon"></i>
+          <a href="https://www.facebook.com/krishna.tamang.928167" target="_blank">
+            facebook.com/krishna.tamang.928167
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Hobbies -->
+    <section class="card">
+      <h2><i class="fas fa-heart"></i> Hobbies</h2>
+      <ul class="hobby-list">
+        <li><i class="fas fa-paint-brush"></i> Painting</li>
+        <li><i class="fas fa-gamepad"></i> Playing Games</li>
+        <li><i class="fas fa-book"></i> Reading</li>
+        <li><i class="fas fa-music"></i> Listening to Music</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Krishna Prasad Tamang. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("toggleTheme").onclick = () => {
+      document.body.classList.toggle("dark-theme");
+    };
+  </script>
+
+</body>
+</html>
